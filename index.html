@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRUD</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <form id="form_usuario">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required><br><br>
+
+      <label for="apellido">Apellido:</label>
+      <input type="text" id="apellido" name="apellido" required><br><br>
+
+      <label for="documento">Documento:</label>
+      <input type="text" id="documento" name="documento" required><br><br>
+
+      <label for="telefono">Telefono:</label>
+      <input type="text" id="telefono" name="telefono" required><br><br>
+
+      <label for="tipo-doc">Tipo de documento:</label>
+      <select id="tipo-doc" name="tipo-doc" required>
+        <option value="">Selecciona el tipo de documento</option>
+
+      </select><br><br>
+
+      <label for="Correo">Correo electronico:</label>
+      <input type="email" id="Correo" name="Correo" required><br><br>
+
+      <label for="Direccion">Dirección:</label>
+      <input type="text" id="Direccion" name="Direccion" required><br><br>
+
+      <div>
+        <input type="checkbox" id="checkbox" required>
+        <label for="terminos">Aceptar terminos y condiciones </label>
+      </div>
+      <input type="hidden"
+      <button type="submit">Agregar Usuario</button>
+    </form>
+  </div>
+
+  <!-- Template para listar usuarios -->
+  <template id="users">
+    <tr>
+      <td class="first_name"></td>
+      <td class="last_name"></td>
+      <td class="phone"></td>
+      <td class="address"></td>
+      <td class="type-id"></td>
+      <td class="document"></td>
+      <td class="email"></td>
+      <td>
+        <div class="group">
+          <button class="edit button">
+            <i class="bx bxs-edit-alt"></i>
+          </button>
+          <button class="delete button button--danger">
+            <i class="bx bxs-trash"></i>
+          </button>
+        </div>
+      </td>
+    </tr>
+  </template>
+
+
+</body>
+
+<script src="app.js" type="module"></script>
+
+</html>

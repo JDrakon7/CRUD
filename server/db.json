@@ -1,0 +1,62 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "nombre": "Juan",
+      "apellido": "Barrera",
+      "documento": "001553344",
+      "tipo-doc": "Cedula",
+      "Correo": "jbarrera@gmail.com",
+      "Direccion": "Cra 2# 21-5"
+    },
+    {
+      "id": "b1cd",
+      "nombre": "Jon",
+      "apellido": "Doe",
+      "documento": "1234567890",
+      "tipo-doc": "CC",
+      "correo": "test@example.us",
+      "direccion": "1600 Amphitheatre Parkway",
+      "telefono": "6019521325"
+    },
+    {
+      "id": "f4f9",
+      "nombre": "Gottfried",
+      "apellido": "Leibniz",
+      "documento": "1032323262",
+      "tipo-doc": "CC",
+      "correo": "test@beispiel.de",
+      "direccion": "Erika-Mann-Straße 33",
+      "telefono": "030303986300"
+    }
+  ],
+  "Docs": [
+    {
+      "documento": "100553344",
+      "id": "1",
+      "nombre": "Juan"
+    }
+  ],
+  "documents": [
+    {
+      "id": "1ea3",
+      "name": "Pasaporte"
+    },
+    {
+      "id": "3cb9",
+      "name": "Pasaporte"
+    },
+    {
+      "id": "0124",
+      "name": "Carteras"
+    },
+    {
+      "id": "29d8",
+      "name": "Carterass"
+    },
+    {
+      "id": "1094",
+      "name": "Pruebaaaaaa"
+    }
+  ]
+}
