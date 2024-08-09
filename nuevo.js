@@ -1,9 +1,9 @@
-import { Url } from "./config.js";
+import { URL } from "./config.js";
 
-const solicitud = async (url) => {
-     let respuesta = await fetch(`${Url}${url}`);
+const solicitar = async (fianal) => {
+     let respuesta = await fetch(`${URL}/${final}`);
      let datos = await respuesta.json();
      return datos
 
 }
-export default solicitud
+export default solicitar
